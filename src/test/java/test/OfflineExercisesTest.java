@@ -19,9 +19,6 @@ public class OfflineExercisesTest {
 
 	@Test
 	public void multChar() {
-		
-		
-		
 		assertEquals("TTThhheee", oe.multChar("The"));
 		assertEquals("AAAAAAbbbbbb", oe.multChar("AAbb"));
 		assertEquals("HHHiii---TTThhheeerrreee", oe.multChar("Hi-There"));
@@ -29,22 +26,6 @@ public class OfflineExercisesTest {
 
 	@Test
 	public void getBert() {
-		
-		String str = "bertclivebert!";
-		if (String == )
-		
-		
-			
-			StringBuffer buffer = new StringBuffer(str.length());
-			for (int i = str.length() - 1; i >= 0; i--) {
-			buffer.append(str.charAt(i));
-			}
-			String reversedStr = buffer.toString();
-			System.out.println(reversedStr);
-			}
-			 
-		
-		
 		assertEquals("evilc", oe.getBert("bertclivebert"));
 		assertEquals("egdirf", oe.getBert("xxbertfridgebertyy"));
 		assertEquals("egdirf", oe.getBert("xxBertfridgebERtyy"));

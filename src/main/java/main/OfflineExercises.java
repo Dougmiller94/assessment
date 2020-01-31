@@ -1,5 +1,7 @@
 package main;
 
+import java.io.PrintStream;
+
 public class OfflineExercises {
 
 	// Given a string, return a string where
@@ -10,21 +12,17 @@ public class OfflineExercises {
 	// multChar("AAbb") → "AAAAAAbbbbbb"
 	// multChar("Hi-There") → "HHHiii---TTThhheeerrreee"
 
-	public String multChar(String The) {
-		String str = "The";
-		for (int i=0; i < String.length(); i++){
-
-			System.out.println("")
-
+	
 		
-		
-			public static void main(String[] args) { 
+			public String multChar(String args) { 
 				String str = "The"; 
 				System.out.println("Original String = " + str); 
 				int index1 = str.charAt(0); 
 				int index2 = str.charAt(1);
 				System.out.println((char)index1); 
 				System.out.println((char)index2); 
+				return "";
+				
 				}
 			
 		
@@ -48,17 +46,19 @@ public class OfflineExercises {
 
 	public String getBert(String input) {
 				
-		String str = "bertclivebert!";
-		if (String == )
-		
-		
-			
-			StringBuffer buffer = new StringBuffer(str.length());
-			for (int i = str.length() - 1; i >= 0; i--) {
-			buffer.append(str.charAt(i));
-			}
-			String reversedStr = buffer.toString();
-			System.out.println(reversedStr);
+//		String str = "bertclivebert!";
+//		Object StringBuffer;
+//		
+//		
+//		
+//			
+//			StringBuffer PrintStream StringBuffer = new StringBuffer(str.length());
+//			for (int i = str.length() - 1; i >= 0; i--) {
+//			StringBuffer.append(str.charAt(i));
+//			}
+//			String reversedStr = StringBuffer.toString();
+//			System.out.println(reversedStr);
+		return "";
 			}
 			
 	
